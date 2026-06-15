@@ -1,0 +1,28 @@
+{
+  "name": "settlix-oracle",
+  "version": "0.1.0",
+  "description": "Oracle service for Settlix merchant payment platform",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^14.0.0",
+    "express": "^5.0.0",
+    "dotenv": "^16.4.0",
+    "axios": "^1.7.0",
+    "redis": "^4.7.0",
+    "pino": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "@types/node": "^22.0.0",
+    "@types/express": "^5.0.0",
+    "tsx": "^4.21.0",
+    "vitest": "^2.1.0"
+  }
+}

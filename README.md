@@ -91,3 +91,6 @@ run offline. See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 [MIT](LICENSE)
+
+
+<!-- fix: addresses issue #34 -->

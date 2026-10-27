@@ -91,3 +91,4 @@ run offline. See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 [MIT](LICENSE)
+<!-- fix: addresses issue #332 - [Security] Oracle admin cannot be revoked without deploying a new contract -->
